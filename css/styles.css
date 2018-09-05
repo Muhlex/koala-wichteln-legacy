@@ -1,0 +1,24 @@
+body {
+  overflow-y: scroll;
+}
+
+.participants-list-group-item {
+  padding: .5rem .5rem;
+}
+
+.participants-list-group-item img{
+  width: 2rem;
+  height: 2rem;
+}
+
+.steam {
+  opacity: 0;
+}
+
+.participants-list-group-item:hover .steam {
+  opacity: .2;
+}
+
+.partner {
+  font-size: 2rem;
+}
