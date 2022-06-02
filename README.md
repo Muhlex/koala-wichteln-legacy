@@ -13,3 +13,5 @@ Requires a MySQL database.
 
 ## Notes
 This is one of my first web programming projects ever. It is probably not all that good.
+
+## [Screenshots](SCREENSHOTS.md)
