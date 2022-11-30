@@ -38,8 +38,7 @@
     <h1 class="mt-5"><small class="text-secondary"><span class="oi oi-info" aria-hidden="true"></span></small>&ensp;Um was
       geht's?
     </h1>
-    <p class="lead">2015 zuerst eingeführt, ist das koalaSports Wichteln absolute Tradition. Und zwar so sehr, dass es nun
-      &ndash; 3 Jahre später &ndash; auch mal wieder durchgeführt wird.</p>
+    <p class="lead">2015 zuerst eingeführt, ist das koalaSports Wichteln absolute Tradition.</p>
     <p>
       Wie beim Wichteln üblich, bekommt jeder einen Partner zugeteilt, dem er dann ein tolles Geschenk legen <s>muss</s>
       darf. Normalerweise sind das CS:GO Items. Der Kreativität darf aber freien Lauf gelassen werden. <small><a href="#gifts">Mehr
@@ -155,8 +154,8 @@
             Geschenkwert<span class="float-right oi oi-euro" aria-hidden="true"></span>
           </div>
           <div class="card-body">
-            <h2 class="text-center mt-3"><b><span class="text-secondary">~ </span>5,00€</b></h2>
-            <h6 class="text-center mt-3"><span class="text-secondary">Mindestwert: </span>3,00€</h6>
+            <h2 class="text-center mt-3"><b>5,00&thinsp;€ - 10,00&thinsp;€</b></h2>
+            <h6 class="text-center mt-3"><span class="text-secondary">Mindestwert: </span>3,00&thinsp;€</h6>
           </div>
         </div>
       </div>
@@ -295,7 +294,7 @@
         <p>
           Steam hält Inventar-Gegenstände bis 7 Tage nach Erhalt im Inventar, sodass sie nicht gehandelt werden können.
           <b><em>Halte dich daher bitte auf jeden Fall an die gesetzte Deadline zur Abgabe.</em></b>
-          Andernfalls kann dein Wichtelpartner das Geschenk nicht am Ausgabetag erhalten.          
+          Andernfalls kann dein Wichtelpartner das Geschenk nicht am Ausgabetag erhalten.
         </p>
         <h5 class="mb-3">Guidelines</h5>
         <div class="row">
@@ -305,9 +304,9 @@
                   <span class="oi oi-euro" aria-hidden="true"></span>
               </div>
               <div class="card-body p-2 aligh">
-                <span style="font-size: 1.4rem"><b><span class="text-secondary">~ </span>5,00€</b></span>
+                <span style="font-size: 1.4rem"><b>5,00&thinsp;€ - 10,00&thinsp;€</b></span>
                 <br>
-                <small><span class="text-secondary">Mindestwert: </span>3,00€</small>
+                <small><span class="text-secondary">Mindestwert: </span>3,00&thinsp;€</small>
               </div>
             </div>
           </div>
@@ -478,7 +477,7 @@
             Teilnehmer
             <?php if ($participants != false) : ?>
             <span class="badge badge-secondary"><?= count($participants); ?></span>
-            <?php endif; ?> 
+            <?php endif; ?>
           </div>
 
           <ul class="list-group list-group-flush">
@@ -505,7 +504,7 @@
               Deine Chance, der Erste zu sein!
             </li>
             <?php endif; ?>
-            
+
           </ul>
 
         </div>
