@@ -316,15 +316,16 @@ function match_players($allow_pairs = true, $max_pair_chance)
             VALUES ';
 
   for ($i = 0; $i <= $playercount - 1; $i++) {
-    $query .= '(' . $players_origin[$i] . ', ' . $players_match[$i] . '), ';
+    $query .= '("' . $players_origin[$i] . '", "' . $players_match[$i] . '"), ';
   }
 
   $query = substr($query, 0, -2);
   $query .= ';';
 
   $result = mysqli_query($conn, $query);
-  if (mysqli_error($conn)) {
-    echo "Could not add matched users to database.";
+  $error = mysqli_error($conn);
+  if ($error) {
+    echo "Could not add matched users to database: " . $error;
     exit;
   }
 
